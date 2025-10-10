@@ -20,7 +20,7 @@ a:hover {
   color: #ffffff;
 }
 
-/* ===== Header & Nav ===== */
+/* ===== Header & Navigation ===== */
 header {
   text-align: center;
   padding: 1.5em 0;
@@ -51,7 +51,7 @@ nav a.active {
 /* ===== Main Content ===== */
 main {
   padding: 2em;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -66,12 +66,26 @@ main {
 .profile-photo {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
-  border: 2px solid #EDE9D0;
   object-fit: cover;
+  border: 2px solid #EDE9D0;
 }
 
-/* ===== Lists ===== */
-.book-list, .blog-list {
+/* ===== Blog List ===== */
+.blog-list {
   list-style: none;
-  pa
+  padding: 0;
+}
+
+.blog-list li {
+  padding: 10px 0;
+  border-left: 3px solid #EDE9D0;
+  margin-bottom: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  border-top: 2px solid #EDE9D0;
+  margin-top: 3em;
+}
