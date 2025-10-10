@@ -8,12 +8,12 @@ body {
 }
 
 h1, h2, p, a {
-  color: #EDE9DO;
+  color: #EDE9DE;
 }
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #EDE9DO;
+  border-bottom: 1px solid #EDE9DE;
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 header {
   text-align: center;
   padding: 2em 0 1em 0;
-  border-bottom: 1px solid #EDE9DO;
+  border-bottom: 1px solid #EDE9DE;
 }
 
 nav ul {
@@ -61,7 +61,7 @@ main {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #EDE9DO;
+  border: 2px solid #EDE9DE;
   margin-bottom: 1em;
   object-fit: cover;
 }
@@ -74,7 +74,7 @@ main {
 
 .book-list li, .blog-list li {
   padding: 0.5em 0;
-  border-bottom: 1px solid #EDE9DO;
+  border-bottom: 1px solid #EDE9DE;
 }
 
 .book-title {
@@ -90,7 +90,7 @@ main {
 footer {
   text-align: center;
   padding: 1em 0;
-  border-top: 1px solid #EDE9DO;
+  border-top: 1px solid #EDE9DE;
   font-size: 0.9em;
   opacity: 0.8;
 }
