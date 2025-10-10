@@ -1,37 +1,36 @@
 /* ===== Base ===== */
 body {
   margin: 0;
-  font-family: "Times New Roman", serif;
-  background-color: #F5E9DA;
-  color: #000000;
+  background-color: #55433F;
+  color: #FE4E00;
+  font-family: 'Courier New', monospace;
   line-height: 1.6;
 }
 
-h1, h2 {
-  color: #000000;
+h1, h2, p, a {
+  color: #FE4E00;
 }
 
 a {
-  color: #FF4B33;
   text-decoration: none;
+  border-bottom: 1px solid #FE4E00;
 }
 
 a:hover {
-  color: #C38B5F;
+  opacity: 0.7;
 }
 
-/* ===== Header & Nav ===== */
+/* ===== Header ===== */
 header {
-  background-color: #FFD66B;
-  padding: 1em 0;
   text-align: center;
-  border-bottom: 3px solid #C38B5F;
+  padding: 2em 0 1em 0;
+  border-bottom: 1px solid #FE4E00;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 1em 0 0 0;
 }
 
 nav li {
@@ -40,30 +39,30 @@ nav li {
 }
 
 nav a.active {
-  font-weight: bold;
   text-decoration: underline;
+  font-weight: bold;
 }
 
-/* ===== Main Content ===== */
+/* ===== Main ===== */
 main {
-  padding: 2em;
-  max-width: 800px;
-  margin: auto;
+  max-width: 750px;
+  margin: 3em auto;
+  padding: 0 1.5em;
 }
 
 .about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 2em;
-  margin-bottom: 2em;
+  text-align: center;
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: 3px solid #C38B5F;
+  border: 2px solid #FE4E00;
+  margin-bottom: 1em;
   object-fit: cover;
 }
 
@@ -74,18 +73,24 @@ main {
 }
 
 .book-list li, .blog-list li {
-  background-color: #FFD66B;
-  margin: 10px 0;
-  padding: 10px;
-  border-left: 5px solid #FF4B33;
-  border-radius: 5px;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #FE4E00;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+.book-date {
+  float: right;
+  opacity: 0.8;
 }
 
 /* ===== Footer ===== */
 footer {
   text-align: center;
   padding: 1em 0;
-  background-color: #FFD66B;
-  border-top: 3px solid #C38B5F;
-  margin-top: 3em;
+  border-top: 1px solid #FE4E00;
+  font-size: 0.9em;
+  opacity: 0.8;
 }
