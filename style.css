@@ -1,38 +1,36 @@
-/* === Base Styles === */
+/* ===== Base ===== */
 body {
   margin: 0;
   font-family: monospace;
   background-color: #9F5434;
-  color: #EDE9DE;
+  color: #EDE9D0;
   line-height: 1.6;
 }
 
-h1, h2, h3 {
-  color: #EDE9DE;
-  font-weight: normal;
+h1, h2 {
+  color: #EDE9D0;
 }
 
 a {
   color: #EDE9D0;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
 }
 
-/* === Header === */
+a:hover {
+  color: #ffffff;
+}
+
+/* ===== Header & Nav ===== */
 header {
   text-align: center;
   padding: 1.5em 0;
-  background-color: #9F5434;
-  border-bottom: 1px solid #EDE9D0;
+  border-bottom: 2px solid #EDE9D0;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 1em 0 0 0;
+  margin: 0.5em 0 0 0;
 }
 
 nav li {
@@ -40,52 +38,40 @@ nav li {
   margin: 0 15px;
 }
 
+nav a {
+  text-decoration: none;
+  color: #EDE9D0;
+}
+
 nav a.active {
-  border-bottom: 2px solid #EDE9D0;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-/* === Main === */
+/* ===== Main Content ===== */
 main {
-  max-width: 800px;
-  margin: 0 auto;
   padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* About section */
 .about {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 2px solid #EDE9D0;
   object-fit: cover;
 }
 
-/* Lists */
+/* ===== Lists ===== */
 .book-list, .blog-list {
   list-style: none;
-  padding: 0;
-}
-
-.book-list li, .blog-list li {
-  background-color: #9F5434;
-  border-left: 3px solid #EDE9D0;
-  padding: 0.8em;
-  margin: 0.6em 0;
-}
-
-/* === Footer === */
-footer {
-  text-align: center;
-  border-top: 1px solid #EDE9D0;
-  padding: 1.5em 0;
-  font-size: 0.9em;
-  color: #EDE9DE;
-}
+  pa
