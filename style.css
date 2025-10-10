@@ -1,19 +1,19 @@
 /* ===== Base ===== */
 body {
   margin: 0;
-  background-color: #55433F;
-  color: #FE4E00;
+  background-color: #9F5454;
+  color: #EDE9DO;
   font-family: 'Courier New', monospace;
   line-height: 1.6;
 }
 
 h1, h2, p, a {
-  color: #FE4E00;
+  color: #EDE9DO;
 }
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #FE4E00;
+  border-bottom: 1px solid #EDE9DO;
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 header {
   text-align: center;
   padding: 2em 0 1em 0;
-  border-bottom: 1px solid #FE4E00;
+  border-bottom: 1px solid #EDE9DO;
 }
 
 nav ul {
@@ -61,7 +61,7 @@ main {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #FE4E00;
+  border: 2px solid #EDE9DO;
   margin-bottom: 1em;
   object-fit: cover;
 }
@@ -74,7 +74,7 @@ main {
 
 .book-list li, .blog-list li {
   padding: 0.5em 0;
-  border-bottom: 1px solid #FE4E00;
+  border-bottom: 1px solid #EDE9DO;
 }
 
 .book-title {
@@ -90,7 +90,7 @@ main {
 footer {
   text-align: center;
   padding: 1em 0;
-  border-top: 1px solid #FE4E00;
+  border-top: 1px solid #EDE9DO;
   font-size: 0.9em;
   opacity: 0.8;
 }
