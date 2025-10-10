@@ -1,30 +1,32 @@
-/* ===== Base ===== */
+/* === Base Styles === */
 body {
   margin: 0;
-  background-color: #9F5454;
-  color: #EDE9DO;
-  font-family: 'Courier New', monospace;
+  font-family: monospace;
+  background-color: #9F5434;
+  color: #EDE9DE;
   line-height: 1.6;
 }
 
-h1, h2, p, a {
+h1, h2, h3 {
   color: #EDE9DE;
+  font-weight: normal;
 }
 
 a {
+  color: #EDE9D0;
   text-decoration: none;
-  border-bottom: 1px solid #EDE9DE;
 }
 
 a:hover {
-  opacity: 0.7;
+  text-decoration: underline;
 }
 
-/* ===== Header ===== */
+/* === Header === */
 header {
   text-align: center;
-  padding: 2em 0 1em 0;
-  border-bottom: 1px solid #EDE9DE;
+  padding: 1.5em 0;
+  background-color: #9F5434;
+  border-bottom: 1px solid #EDE9D0;
 }
 
 nav ul {
@@ -39,58 +41,51 @@ nav li {
 }
 
 nav a.active {
-  text-decoration: underline;
-  font-weight: bold;
+  border-bottom: 2px solid #EDE9D0;
 }
 
-/* ===== Main ===== */
+/* === Main === */
 main {
-  max-width: 750px;
-  margin: 3em auto;
-  padding: 0 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
 }
 
+/* About section */
 .about {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
+  gap: 2em;
+  margin-bottom: 2em;
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  border: 2px solid #EDE9DE;
-  margin-bottom: 1em;
+  border: 2px solid #EDE9D0;
   object-fit: cover;
 }
 
-/* ===== Lists ===== */
+/* Lists */
 .book-list, .blog-list {
   list-style: none;
   padding: 0;
 }
 
 .book-list li, .blog-list li {
-  padding: 0.5em 0;
-  border-bottom: 1px solid #EDE9DE;
+  background-color: #9F5434;
+  border-left: 3px solid #EDE9D0;
+  padding: 0.8em;
+  margin: 0.6em 0;
 }
 
-.book-title {
-  font-weight: bold;
-}
-
-.book-date {
-  float: right;
-  opacity: 0.8;
-}
-
-/* ===== Footer ===== */
+/* === Footer === */
 footer {
   text-align: center;
-  padding: 1em 0;
-  border-top: 1px solid #EDE9DE;
+  border-top: 1px solid #EDE9D0;
+  padding: 1.5em 0;
   font-size: 0.9em;
-  opacity: 0.8;
+  color: #EDE9DE;
 }
