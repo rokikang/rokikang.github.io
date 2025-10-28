@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books | Roki Kang</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Books I’ve met along the way</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html" class="active">Books</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+  <section class="notion-embed">
+    <p>
+      A log of research articles that I've read
+    </p>
+    <iframe
+      src="https://garnet-gas-f1b.notion.site/ebd/29a22e35b660805e90c2dcd1fa8d4e49?v=29a22e35b6608166ba40000c01d958ae"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </section>
+</main>
+
+  <footer>
+    <p>© 2025 Roki Kang</p>
+  </footer>
+</body>
+</html>
