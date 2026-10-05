@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investing | Roki Kang</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Writings about Investing</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Investing.html" class="active">Investing</a></li>
+        <li><a href="academicliterature.html">Academic Literature</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+  <section class="notion-embed">
+    <p>
+      I analyze current intermarket macro trends and explain how they influence asset movements.
+    </p>
+    <iframe
+      <iframe src="/ebd//3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a" width="100%" height="600" frameborder="0" allowfullscreen />
+    </iframe>
+  </section>
+</main>
+
+  <footer>
+    <p>© 2025 Roki Kang</p>
+  </footer>
+</body>
+</html>
