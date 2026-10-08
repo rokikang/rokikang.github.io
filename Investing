@@ -26,10 +26,9 @@
       <p>
         I analyze current intermarket macro trends and explain how they influence asset movements.
       </p>
-      <!-- Ensure the src link points to your full Notion embed / App URL (e.g. https://...) if hosting via GitHub Pages -->
       <iframe
-        src="/ebd//3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a"
-        title="Investing Database"
+        src="https://garnet-gas-f1b.notion.site/ebd/3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a"
+        title="Investing Notion Database"
         width="100%"
         height="600"
         style="border: none;"
