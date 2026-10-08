@@ -21,16 +21,22 @@
     </nav>
   </header>
 
-<main>
-  <section class="notion-embed">
-    <p>
-      I analyze current intermarket macro trends and explain how they influence asset movements.
-    </p>
-    <iframe
-      <iframe src="/ebd//3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a" width="100%" height="600" frameborder="0" allowfullscreen />
-    </iframe>
-  </section>
-</main>
+  <main>
+    <section class="notion-embed">
+      <p>
+        I analyze current intermarket macro trends and explain how they influence asset movements.
+      </p>
+      <!-- Ensure the src link points to your full Notion embed / App URL (e.g. https://...) if hosting via GitHub Pages -->
+      <iframe
+        src="/ebd//3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a"
+        title="Investing Database"
+        width="100%"
+        height="600"
+        style="border: none;"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Roki Kang</p>
