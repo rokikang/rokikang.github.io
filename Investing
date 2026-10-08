@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1>Writings about Investing</h1>
+    <h1>Investing</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -23,20 +23,14 @@
   <main>
     <section class="notion-embed">
       <p>
-        I analyze current intermarket macro trends and explain how they influence asset movements.
+        I write about investing.
       </p>
-      
-      <!-- Direct Access Fallback -->
-      <p style="margin-bottom: 1.5em;">
-        <a href="https://garnet-gas-f1b.notion.site/3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a" target="_blank" rel="noopener noreferrer">
-          ↗ Open Database directly in Notion
-        </a>
-      </p>
-
       <iframe
-        src="https://garnet-gas-f1b.notion.site/ebd/3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a"
-        title="Investing Notion Database"
-        loading="lazy"
+        src="https://garnet-gas-f1b.notion.site/ebd//3eb22e35b660803baad6d2bf1ae90a71?v=3eb22e35b660800fbb01000c747d7d9a"
+        title="Investing Database"
+        width="100%"
+        height="600"
+        style="border: none;"
         allowfullscreen>
       </iframe>
     </section>
