@@ -23,20 +23,36 @@ a:hover {
 
 /* ===== Header & Navigation ===== */
 header {
-  text-align: center;
-  padding: 1.5em 0;
+  padding: 1.5em 2em;
   border-bottom: 2px solid #EDE9D0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2em;
+}
+
+.header-text {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.header-text h1 {
+  margin: 0 0 0.2em 0;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0.5em 0 0 0;
+  margin: 0;
 }
 
 nav li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 25px 0 0;
 }
 
 nav a {
@@ -48,6 +64,14 @@ nav a {
 nav a.active {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.profile-photo-header {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid #EDE9D0;
+  border-radius: 50%;
 }
 
 /* ===== Main Content ===== */
@@ -63,13 +87,6 @@ main {
   align-items: center;
   gap: 2em;
   margin-bottom: 3em;
-}
-
-.profile-photo {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border: 2px solid #EDE9D0;
 }
 
 /* ===== Blog List ===== */
@@ -97,7 +114,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px; /* prevents it from stretching too wide on huge screens */
+  max-width: 1200px;
 }
 
 .notion-embed h2 {
@@ -106,7 +123,7 @@ footer {
 
 .notion-embed iframe {
   width: 100%;
-  height: 90vh; /* fills most of the visible window height */
+  height: 90vh;
   border: none;
   border-radius: 4px;
   display: block;
